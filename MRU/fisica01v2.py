@@ -202,7 +202,6 @@ print(f"χ²/graus de liberdade = {qui_quadrado/graus_liberdade if graus_liberda
 print("\n======== RESUMO DOS RESULTADOS ========")
 print("Valores das grandezas físicas e suas incertezas:")
 print(f"1. Aceleração:")
-print(f"   Valor: {aceleracao:.4f} m/s²")
 print(f"   Incerteza tipo A: ±{incerteza_A_aceleracao:.4f} m/s²")
 print(f"   Incerteza tipo B (proveniente da medida de distância): ±{incerteza_B_distancia_m:.6f} m")
 print(f"   Incerteza total (A+B): ±{incerteza_total_aceleracao:.4f} m/s²")
